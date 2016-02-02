@@ -13,6 +13,9 @@
 		68CC11571BB1AA4A003BDF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CC11561BB1AA4A003BDF43 /* Assets.xcassets */; };
 		68CC115A1BB1AA4A003BDF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC11581BB1AA4A003BDF43 /* LaunchScreen.storyboard */; };
 		68CC11651BB1AA4A003BDF43 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC11641BB1AA4A003BDF43 /* AboutMeTests.swift */; };
+		68CC11701BB1DF49003BDF43 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC116F1BB1DF49003BDF43 /* CarDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		68CC11721BB1DF59003BDF43 /* FamilyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC11711BB1DF59003BDF43 /* FamilyDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		68CC11741BB1DF75003BDF43 /* AppleIIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC11731BB1DF75003BDF43 /* AppleIIDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		68CC11601BB1AA4A003BDF43 /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CC11641BB1AA4A003BDF43 /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		68CC11661BB1AA4A003BDF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CC116F1BB1DF49003BDF43 /* CarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		68CC11711BB1DF59003BDF43 /* FamilyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyDetailViewController.swift; sourceTree = "<group>"; };
+		68CC11731BB1DF75003BDF43 /* AppleIIDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleIIDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				68CC114F1BB1AA4A003BDF43 /* AppDelegate.swift */,
 				68CC11511BB1AA4A003BDF43 /* ViewController.swift */,
 				68CC11531BB1AA4A003BDF43 /* Main.storyboard */,
+				68CC11731BB1DF75003BDF43 /* AppleIIDetailViewController.swift */,
+				68CC116F1BB1DF49003BDF43 /* CarDetailViewController.swift */,
+				68CC11711BB1DF59003BDF43 /* FamilyDetailViewController.swift */,
 				68CC11561BB1AA4A003BDF43 /* Assets.xcassets */,
 				68CC11581BB1AA4A003BDF43 /* LaunchScreen.storyboard */,
 				68CC115B1BB1AA4A003BDF43 /* Info.plist */,
@@ -198,6 +207,9 @@
 			files = (
 				68CC11521BB1AA4A003BDF43 /* ViewController.swift in Sources */,
 				68CC11501BB1AA4A003BDF43 /* AppDelegate.swift in Sources */,
+				68CC11741BB1DF75003BDF43 /* AppleIIDetailViewController.swift in Sources */,
+				68CC11721BB1DF59003BDF43 /* FamilyDetailViewController.swift in Sources */,
+				68CC11701BB1DF49003BDF43 /* CarDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
