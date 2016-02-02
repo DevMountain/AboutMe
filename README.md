@@ -55,6 +55,10 @@ Build three detail scenes that give extra insight into the view's topic.
     * ex. FamilyViewController.swift for Family detail scene
 3. Run the application in Simulator and ensure that you can navigate to each new detail view
 
+### Explain Your Choices
+
+Use your app to introduce yourself to three people. Describe your navigation hierarchy as you do so, and why the choices for Tabs, Navigation Controllers, and presentation styles make sense.
+
 ### Black Diamonds
 
 * Add an additional tab with Contact Information
