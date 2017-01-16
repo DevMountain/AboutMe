@@ -37,11 +37,12 @@ Build a view with at least 10 facts that you could use to introduce your interes
 
 Embed both the Intro and Interests scenes into a Tab Bar Controller. Change the names of the Tab Bar Items to reflect what the scenes will display.
 
-1. Add the Tab Bar Controller to Main.storyboard
-2. Wire up the relationship segue from the Intro and Interests scenes to the Tab Bar Controller
-3. Make sure to display the Intro scene first by making it the first Tab Bar Item
-4. Run the application in Simulator and ensure that nothing in the views is cut off or truncated
-5. Install the project on an iOS device
+1. Add a Tab Bar Controller to Main.storyboard
+2. Delete the View Controllers that come embedded in the Tab Bar Controller 
+3. Wire up the relationship segue from the Intro and Interests scenes to the Tab Bar Controller
+4. Make sure to display the Intro scene first by making it the first Tab Bar Item
+5. Run the application in Simulator and ensure that nothing in the views is cut off or truncated
+6. Install the project on an iOS device
 
 ### Detail Scenes
 
