@@ -24,7 +24,7 @@ class AboutMeTests: XCTestCase {
         
         guard let tabBarController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? UITabBarController,
             let navigationController = tabBarController.viewControllers?.first as? UINavigationController,
-            let viewController = navigationController.viewControllers.first as? ViewController else {
+            let _ = navigationController.viewControllers.first as? ViewController else {
             
                 XCTAssert(false, "Expected initial scene to be of class ViewController")
                 return
